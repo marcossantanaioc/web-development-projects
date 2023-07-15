@@ -1,0 +1,119 @@
+/* Global
+----------------*/
+
+* {
+    border-radius: 2%;
+}
+body h1 {
+    text-align: center;
+    font-family: 'Tektur';
+    font-size: 28pt
+
+}
+
+ul, p {
+    font-weight: normal;
+    font-size: 20pt
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: #2F3061;
+}
+
+header, footer {
+    color: rgb(240,255,255);
+    background-color: #2D2A32;
+}
+/* Header
+----------------*/
+
+header {
+    overflow: hidden;
+    display: flex;
+    text-align: left;
+    height: 31rem;
+    transition: border-top, 1s, border-botton 1s;
+    
+}
+
+header:hover {
+    border: 10px solid black;
+
+}
+
+#description-text {
+    font-size: 18pt;
+    padding-left: 30px;
+    flex: 2;
+
+}
+#profile-img {
+    padding-top: 3em;
+    padding-right: 15px;
+    border-radius: 100%;
+    flex: 1;
+    width: 24em;
+}
+
+/* About me
+----------------*/
+
+.about-me {
+    color: #1A120B;
+    background-color: #EFEFEF;
+    transition: border-top, 1s, border-botton 1s;
+
+}
+
+#about-me-text {
+    font-size: 28pt;
+    width: 80%;
+}
+
+.about-me:hover {
+    border: 10px solid black;
+
+}
+
+/* Resume
+----------------*/
+.resume {
+    overflow: hidden;
+    color: #1A120B;
+    background-color: #BCC7F0;
+    transition: border-top, 1s, border-botton 1s;
+    
+}
+
+.resume:hover {
+    border: 10px solid black;
+
+}
+/* Education
+----------------*/
+.education {
+    overflow: hidden;
+    color: #1A120B;
+    background-position: right;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../images/books1.jpg");
+    transition: border-top, 1s, border-botton 1s;
+    
+}
+
+.education:hover {
+    border: 10px solid black;
+
+}
+
+/* Footer
+------------------ */
+footer {
+    overflow: hidden;
+    text-align: center;
+    
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos Satana - Resume</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <div id="description-text">
+                <h1>Marcos Vinicius da Silva Santana</h1>
+                <h2>Senior Cheminformatics Data Scientist</h2>
+                <p>As a cheminformatician, I specialize in collecting and curating biochemical data for early stage drug discovery projects</p>
+                <p>I'm also focused in training QSAR models for prediction of endpoints relevant to projects, such as bioactivity, selectivity profile and DMPK properties</p>
+                <p>I'm also a Python developer, creating or implementing packages to solve diverse computational chemistry problems.</p>
+                <p>In-depth Knowledge of drug discovery process</p>
+            </div>
+            <div id="profile">
+                <img id="profile-img" src="images/profile.jpg"/>
+            </div>
+        </header>
+        <section class="about-me">
+            <div id="about-me-text">
+                <h1>Featured open-source projects</h1>
+                <p>View selected projects below. More information can be found at <a href="github.com/marcossantanaioc">github.com/marcossantanaioc</a>.</p>
+                <dl>
+                    <dt><a href="https://github.com/marcossantanaioc/cheminftools">Cheminftools</a></dt>
+                    <dd>Perform routine cheminformatics tools, such as sanitizing SMILES, clustering compounds and filter datasets based on physicochemical properties and/or substructures.</dd>
+                </dl>
+                <dl>
+                    <dt><a href="https://github.com/marcossantanaioc/chemlearn">Chemlearn</a></dt>
+                    <dd>Chemlearn is a wrap over scikit-learn that allows users to featurize molecular data and train models. The package supports regression and classification problems, in addition to hyperparameter optimization.</dd>
+                </dl>
+                <dl>
+                    <dt><a href="https://github.com/marcossantanaioc/molcluster">Molcluster</a></dt>
+                    <dd>Molcluster is a simple package for clustering collections of compounds. The current version supports KNN and <a href="https://pubs.acs.org/doi/pdf/10.1021/ci9803381">Taylor-Butina clustering.</a></dd>
+                </dl>
+            </div>
+        </section>
+        <section class="resume">
+            <section class="work-experience">
+                <h1>Work Experience</h1>
+                <p>See my complete work experience on <a href="https://www.linkedin.com/in/marcossantana31/">LinkedIn</a></p>
+                <h2>Senior Cheminformatics Data Scientist | 2022 - to date</h2>
+                <p>BenevolentAI - BAI, London - UK</p>
+                <ul>
+                    <li>Cheminformatics Representative for Drug Discovery projects: support medicinal chemistry efforts using a combination of data analysis and engineering and QSAR modeling approaches.</li></br>
+
+                    <li>Cheminformatics method developer: develop, implement and maintain cheminformatics tools and pipelines for internal and broad company use, with direct application in projects.</li></br>
+
+                    <li>Cheminformatics data scientist: collection and curation of biochemical data from public and inhouse RESTful API'S. Training & validation of QSAR models for bioactivity and ADMET endpoints prediction.</li>
+                </ul>
+                <h3>Key contributions</h3>
+                <ul>
+                    <li>Developed 5 Python packages to automate routine tasks: </li>
+                        <ul>
+                            <li>A clustering package to group compounds with similar structures;</li>
+                            <li>An alerts package to identify compounds with structural alerts, such as covalent groups and toxicophores;</li>
+                            <li>A ligand-based virtual screening pipeline to perform tasks such as similarity/substructure search, SMILES sanitization and prediction via ML models;</li>
+                            <li>A Free-Wilson package to identify unexplored R groups patterns in a user-provided chemical series;</li>
+                            <li>A Random Matrix Theory package to identify active/inactive signals in a molecule dataset;</li></br>
+                        </ul>
+                    <li>Developed 1 QSAR bioactivity model focused used during hit discovery phase.</li>
+                    <li>Developed 1 Python package for hit expansion focused on finding unexplored R group patterns for 3 compound series.</li>
+                    <li>Developed 1 virtual screening pipeline used in the project for prioritization of compounds for screening. </br>The pipeline included steps to curate raw bioachemical data (e.g. aggregation of activity values, sanitization of SMILES), perform intelectual property checks on public databases and patents, and identify actionable chemical series (i.e series with at least 5 compounds and good activity profile).</li>
+                </ul></br>
+
+                <h2>Computational Chemist | 2021 - 2022</h2>
+                <p>Drug Discovery Unit - University of Dundee, UK</p>
+                <ul>
+                    <li>In-house QSAR developer.</li></br>
+                    <li>Computational Chemistry Representative Kinetoplastid portfolio: supported medicinal chemistry efforts applying structure- and ligand-based methods in drug discovery projects</li></br>
+                </ul>
+                
+                <h3>Key contributions</h3>
+                <ul>
+                    <li>Developed 1 QSAR modeling package that was used to train all models applied to projects. These models included bioactivity and DMPK endpoints prediction (e.g. microsomal stability, permeability, solubility)</li>
+                    <li>Identified 2 optimization strategies using molecular dynamics, docking and binding site analysis for my project focused in improving the selectivity profile against human homologs and improve potency of the initial hits.</li>
+                </ul></br>
+
+                <h2>Postdoctoral Researcher | 2020 - 2021</h2>
+                <p>Fundação Oswaldo Cruz, Rio de Janeiro - Brazil</p>
+                <ul>
+                    <li>Development of a de novo platform for identification of potential inhibitors of SARS-CoV-2 main protease (MPro) (Published at BMC Chemistry)</li></br>
+                    <li>Contributed to the development of a deep learning model for the identification of <i>Schistosoma mansoni</i> via microscope images.</li></br>
+                </ul>
+            </section>
+        </section>   
+        <section class="education">
+            <h1>Education</h1>
+            <h2>PhD in Science & Biotechnology</h2>
+            <h2><i>Universidade Federal Fluminese 2016 - 2020</i></h2>
+                <ul>
+                    <li>Thesis: Development of a versatile  platform for virtual screening of bioactive molecules </li>
+                    <li>Advisor: Helena C. Castro and Visiting Scholar Swansea University: Jonathan Mullins</li>
+                    <li>Subject: Drug discovery, Machine Learning, QSAR</li>
+                </ul>
+            <h2>MsC in Science and Biotechnology</h2>
+            <h2><i>Universidade Federal Fluminese 2015 - 2016</i></h2>
+                <ul>
+                    <li>Thesis: Virtual screening of molecules as potential NMDA receptor antagonists</li>
+                    <li>Advisor: Paula A. Abreu & Helena C. Castro</li>
+                    <li>Subject: Drug discovery, Structure-based drug design, CNS</li>
+        </section>
+
+        <footer>
+            <h1>Contact</h1>
+            <p>LinkedIn: https://www.linkedin.com/in/marcossantana31/</p>
+            <p>Github: https://github.com/marcossantanaioc</p>
+            <!-- <p>Email: marcosvssantana@gmail.com</p> -->
+        </footer>
+    </main>
+</body>
+</html>
